@@ -78,6 +78,9 @@ function init() {
 	roundScore = 0;
 	activePlayer = 0;
 
+	document.getElementById('name-0').textContent = 'TRACY!';
+	document.getElementById('name-1').textContent = 'TRACYs MOM!';
+
 	document.querySelector('.dice').style.display = 'none';
 
 	document.getElementById('score-0').textContent = '0';
